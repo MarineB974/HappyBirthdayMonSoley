@@ -32,38 +32,64 @@ function App() {
         <>
           <h2>À toi, mon Soley</h2>
           <p>
-            Depuis ce dix mars, sans prévenir,<br />
-            Tu es entré dans mon avenir...<br />
-            Le 5 mai approche, et avec lui, le feu qu'on allume à deux, heureux.
+            Depuis ce dix mars, sans prévenir, 
+            Tu es entré dans mon avenir. 
+            Un message, un regard, un instant,
+            Et très vite sont venus les appels… longs, vibrants.
+            
+            Des heures à se parler sans voir le temps,
+            Comme si nos âmes savaient depuis longtemps.
+            Toi, le Lion de Douala, fier et vaillant,
+            Moi, la Lionne aux terres d’océan,
+            
+            Liés par un symbole, un rugissement,
+            Qui résonne entre nos deux continents.
+            Entre Marseille et la Réunion,
+            Nos pensées jouent à l’unisson.
+            
+            Comme un murmure doux du destin,
+            Tu m’écris, je t’écris... en même temps, c’est pas rien
+            David Goggins et Sylvain Durif, 
+            On a ri fort, c’était pas fictif.
+            Même les roux n’ont pas été épargnés,
+            À deux, nos délires savent voyager.
+            
+            Tu es tombé sur moi, ou moi sur toi ?
+            Peu importe, le cœur ne ment pas.
+            Nos âmes s’attirent, nos corps le savent,
+            Ce lien est fort, doux et brave.
+            
+            On s’écoute, on se comprend,
+            Chaque mot devient un fondement.
+            Tu respectes mes peurs, mes silences,
+            Et je célèbre ta force, ta présence.
+            
+
+            Le 5 mai approche, et avec lui,
+            Le frisson de te savoir ici.
+            Plus près de moi, plus près du feu,
+            Celui qu’on allume à deux, heureux.
+            
+            Alors aujourd’hui, je te célèbre,
+            Toi, l’homme qui fait battre mon être.
+            Bon anniversaire, mon Soley adoré,
+            Que cette histoire ne cesse de vibrer.
           </p>
         </>
       ),
     },
     {
-      content: (
-        <>
-          <h2>Ce n'est que le début...</h2>
-          <p>
-            Bon Anniversaire mon Soley.<br />
-            Tu es le cœur préféré d'une Lionne à l'autre bout du monde.
-          </p>
-        </>
-      ),
-    }
-  ];
-
-  return (
-    <div>
-      {pages[pageIndex].content}
-      <div style={{ marginTop: '2rem' }}>
-        {pageIndex < pages.length - 1 ? (
-          <button onClick={() => setPageIndex(pageIndex + 1)}>Page suivante</button>
-        ) : (
-          <button onClick={() => setPageIndex(0)}>Recommencer</button>
-        )}
-      </div>
-    </div>
-  );
+  content: (
+    <>
+      <h2>Ce n’est que le début...</h2>
+      <p>
+        Bon Anniversaire mon Soley. Tu es le cœur préféré d'une Lionne à l'autre bout du monde.
+      </p>
+      <img 
+        src="/file_00000000f55c61f7bca2a0709bd92e64~2.png" 
+        alt="Gâteau Joyeux Anniversaire" 
+        style={{ maxWidth: '90%', marginTop: '2rem', borderRadius: '20px' }} 
+      />
+    </>
+  )
 }
-
-export default App;
