@@ -83,7 +83,7 @@ function App() {
           <h2>Un instant détente t’attend…</h2>
           <p>Voici ton bon massage bien mérité !</p>
           <img
-            src="/file_00000000c6586230856a6a831217ac63.png"
+            src="/massage.png"
             alt="Bon massage"
             style={{ maxWidth: '90%', marginTop: '1rem', borderRadius: '20px' }}
           />
@@ -98,7 +98,7 @@ function App() {
             Bon Anniversaire mon Soley. Tu es le cœur préféré d'une Lionne à l'autre bout du monde.
           </p>
           <img
-            src="/file_00000000f55c61f7bca2a0709bd92e64~2.png"
+            src="/gateau.png"
             alt="Gâteau Joyeux Anniversaire"
             style={{ maxWidth: '90%', marginTop: '2rem', borderRadius: '20px' }}
           />
