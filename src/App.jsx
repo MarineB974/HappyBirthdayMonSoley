@@ -18,11 +18,11 @@ function App() {
         <>
           <h1>Aujourd’hui n’est pas un jour comme les autres 🎂</h1>
           <p>Et même si 8 779 kilomètres nous séparent,</p>
-          <p>J’ai trouvé un moyen de traverser la distance 🌍.</p>
+          <p>J’ai trouvé un moyen de traverser la distance 🌍</p>
           <p>Tu es ici parce qu’une personne pense fort à toi.</p>
           <p>(Indice : elle est un peu folle, mais elle te trouve extraordinaire ❤️)</p>
           <p>Aujourd'hui, on célèbre un homme unique...</p>
-          <p>Un papa en or 🥇, un guitariste de cœur 🎸.</p>
+          <p>Un papa en or 🥇, un guitariste de cœur 🎸</p>
           <p>Prêt pour le voyage ? ✈️</p>
           <button
             style={{ marginTop: '1rem' }}
@@ -81,6 +81,7 @@ function App() {
         <>
           <h2>À toi, mon Soley 🌞</h2>
           <p>
+            <p></p>
             Depuis ce dix mars, sans prévenir,<br />
             Tu es entré dans mon avenir.<br />
             Un message, un regard, un instant,<br />
@@ -132,6 +133,7 @@ function App() {
             Toi, l’homme qui fait battre mon être.<br />
             Bon anniversaire, mon Soley adoré,<br />
             Que cette histoire ne cesse de vibrer.<br /><br />
+            🪷<br /><br />
             Ton ti bonbon bien aimé 🍭
           </p>
         </>
