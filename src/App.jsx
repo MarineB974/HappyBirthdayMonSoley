@@ -81,6 +81,19 @@ function App() {
     {
   content: (
     <>
+      <h2>Un instant détente t’attend…</h2>
+      <p>Voici ton bon massage bien mérité !</p>
+      <img 
+        src="/file_00000000c6586230856a6a831217ac63.png" 
+        alt="Bon massage" 
+        style={{ maxWidth: '90%', marginTop: '1rem', borderRadius: '20px' }} 
+      />
+    </>
+  )
+},
+    {
+  content: (
+    <>
       <h2>Ce n’est que le début...</h2>
       <p>
         Bon Anniversaire mon Soley. Tu es le cœur préféré d'une Lionne à l'autre bout du monde.
