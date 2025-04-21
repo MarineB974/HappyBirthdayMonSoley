@@ -1,25 +1,53 @@
+/* Fond global doux en dégradé */
 body {
+  background: linear-gradient(135deg, #fff1f5, #fcefe8);
   font-family: 'Quicksand', sans-serif;
-  background-color: #fffaf7;
   color: #333;
   padding: 2rem;
   text-align: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
+/* Encadré doux pour chaque "page" */
+.page {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Style des boutons */
 button {
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
   background-color: #f9c8d9;
   border: none;
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
   font-size: 1rem;
+  transition: background 0.3s;
 }
 
+button:hover {
+  background-color: #f7a9be;
+}
+
+/* Champ de texte pour l’énigme */
 input {
-  padding: 0.5rem;
+  padding: 0.6rem;
   font-size: 1rem;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 1px solid #ccc;
+  margin-right: 0.5rem;
+}
+
+/* Pour éviter que les images débordent */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 1rem;
 }
