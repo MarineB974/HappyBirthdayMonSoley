@@ -42,4 +42,28 @@ function App() {
     {
       content: (
         <>
-          <h2>
+          <h2>Ce n'est que le début...</h2>
+          <p>
+            Bon Anniversaire mon Soley.<br />
+            Tu es le cœur préféré d'une Lionne à l'autre bout du monde.
+          </p>
+        </>
+      ),
+    }
+  ];
+
+  return (
+    <div>
+      {pages[pageIndex].content}
+      <div style={{ marginTop: '2rem' }}>
+        {pageIndex < pages.length - 1 ? (
+          <button onClick={() => setPageIndex(pageIndex + 1)}>Page suivante</button>
+        ) : (
+          <button onClick={() => setPageIndex(0)}>Recommencer</button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default App;
