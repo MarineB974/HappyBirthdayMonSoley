@@ -18,6 +18,12 @@ function App() {
         <>
           <h1>Aujourd'hui, on célèbre un homme unique...</h1>
           <p>Un papa en or, un guitariste de cœur. Prêt pour la surprise ?</p>
+          <button
+            style={{ marginTop: '1rem' }}
+            onClick={() => document.querySelector("audio").play()}
+          >
+            Lancer la musique
+          </button>
         </>
       ),
     },
