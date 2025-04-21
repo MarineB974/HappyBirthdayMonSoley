@@ -16,8 +16,14 @@ function App() {
     {
       content: (
         <>
-          <h1>Aujourd'hui, on célèbre un homme unique...</h1>
-          <p>Un papa en or, un guitariste de cœur. Prêt pour la surprise ?</p>
+          <h1>Aujourd’hui n’est pas un jour comme les autres</h1>
+            </p>Et même si 10 000 kilomètres nous séparent,</h1>
+              j’ai trouvé un moyen de traverser la distance</h1></h1>
+            <p>Tu es ici parce qu’une personne pense fort à toi.</h1>
+        (Indice : elle est un peu folle, mais elle te trouve extraordinaire)</h1></h1>
+          <p> Aujourd'hui,on célèbre un homme unique...</h1>
+          <p>Un papa en or, un guitariste de cœur.</h1></h1>
+        </p>Prêt pour le voyage ?</p>
           <button
             style={{ marginTop: '1rem' }}
             onClick={() => document.getElementById("audio").play()}
