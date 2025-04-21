@@ -70,22 +70,18 @@ function App() {
             Qui résonne entre nos deux continents.<br />
             Entre Marseille et la Réunion,<br />
             Nos pensées jouent à l’unisson.<br /><br />
-            
-            On s’écrit souvent, presque au même instant,
-            Comme deux esprits liés, dans le même courant.
-            Les mots se croisent, sans qu’on les programme,
-            Connexion subtile, sans câble ni drame.
-
-            On a ri aux éclats, des délires sans fin,
-            Sur Goggins l’infernal, muscles et destin.
-            Puis Durif est venu, l’élu des étoiles,
-            Avec son cristal et ses grandes idées folles.
-
-            Entre l’absurde et le vrai, on glisse sans effort,
-            Des clins d’œil cosmiques jusqu’aux barres de sport.
-            Ce n’est pas du hasard, c’est presque un refrain,
-            Deux âmes qui s’écrivent, au-delà du matin.
-            
+            On s’écrit souvent, presque au même instant,<br />
+            Comme deux esprits liés, dans le même courant.<br />
+            Les mots se croisent, sans qu’on les programme,<br />
+            Connexion subtile, sans câble ni drame.<br /><br />
+            On a ri aux éclats, des délires sans fin,<br />
+            Sur Goggins l’infernal, muscles et destin.<br />
+            Puis Durif est venu, l’élu des étoiles,<br />
+            Avec son cristal et ses grandes idées folles.<br /><br />
+            Entre l’absurde et le vrai, on glisse sans effort,<br />
+            Des clins d’œil cosmiques jusqu’aux barres de sport.<br />
+            Ce n’est pas du hasard, c’est presque un refrain,<br />
+            Deux âmes qui s’écrivent, au-delà du matin.<br /><br />
             Même les roux n’ont pas été épargnés,<br />
             À deux, nos délires savent voyager.<br /><br />
             Tu es tombé sur moi, ou moi sur toi ?<br />
