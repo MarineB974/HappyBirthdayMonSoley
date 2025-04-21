@@ -20,7 +20,7 @@ function App() {
           <p>Un papa en or, un guitariste de cœur. Prêt pour la surprise ?</p>
           <button
             style={{ marginTop: '1rem' }}
-            onClick={() => document.querySelector("audio").play()}
+            onClick={() => document.getElementById("audio").play()}
           >
             Lancer la musique
           </button>
@@ -54,55 +54,60 @@ function App() {
       ),
     },
     {
-  content: (
-    <>
-      <h2>À toi, mon Soley</h2>
-      <p>
-        Depuis ce dix mars, sans prévenir,<br />
-        Tu es entré dans mon avenir.<br />
-        Un message, un regard, un instant,<br />
-        Et très vite sont venus les appels… longs, vibrants.<br /><br />
+      content: (
+        <>
+          <h2>À toi, mon Soley</h2>
+          <p>
+            Depuis ce dix mars, sans prévenir,<br />
+            Tu es entré dans mon avenir.<br />
+            Un message, un regard, un instant,<br />
+            Et très vite sont venus les appels… longs, vibrants.<br /><br />
+            Des heures à se parler sans voir le temps,<br />
+            Comme si nos âmes savaient depuis longtemps.<br />
+            Toi, le Lion de Douala, fier et vaillant,<br />
+            Moi, la Lionne aux terres d’océan,<br /><br />
+            Liés par un symbole, un rugissement,<br />
+            Qui résonne entre nos deux continents.<br />
+            Entre Marseille et la Réunion,<br />
+            Nos pensées jouent à l’unisson.<br /><br />
+            
+            On s’écrit souvent, presque au même instant,
+            Comme deux esprits liés, dans le même courant.
+            Les mots se croisent, sans qu’on les programme,
+            Connexion subtile, sans câble ni drame.
 
-        Des heures à se parler sans voir le temps,<br />
-        Comme si nos âmes savaient depuis longtemps.<br />
-        Toi, le Lion de Douala, fier et vaillant,<br />
-        Moi, la Lionne aux terres d’océan,<br /><br />
+            On a ri aux éclats, des délires sans fin,
+            Sur Goggins l’infernal, muscles et destin.
+            Puis Durif est venu, l’élu des étoiles,
+            Avec son cristal et ses grandes idées folles.
 
-        Liés par un symbole, un rugissement,<br />
-        Qui résonne entre nos deux continents.<br />
-        Entre Marseille et la Réunion,<br />
-        Nos pensées jouent à l’unisson.<br /><br />
-
-        Comme un murmure doux du destin,<br />
-        Tu m’écris, je t’écris... en même temps, c’est pas rien.<br />
-        David Goggins et Sylvain Durif,<br />
-        On a ri fort, c’était pas fictif.<br />
-        Même les roux n’ont pas été épargnés,<br />
-        À deux, nos délires savent voyager.<br /><br />
-
-        Tu es tombé sur moi, ou moi sur toi ?<br />
-        Peu importe, le cœur ne ment pas.<br />
-        Nos âmes s’attirent, nos corps le savent,<br />
-        Ce lien est fort, doux et brave.<br /><br />
-
-        On s’écoute, on se comprend,<br />
-        Chaque mot devient un fondement.<br />
-        Tu respectes mes peurs, mes silences,<br />
-        Et je célèbre ta force, ta présence.<br /><br />
-
-        Le 5 mai approche, et avec lui,<br />
-        Le frisson de te savoir ici.<br />
-        Plus près de moi, plus près du feu,<br />
-        Celui qu’on allume à deux, heureux.<br /><br />
-
-        Alors aujourd’hui, je te célèbre,<br />
-        Toi, l’homme qui fait battre mon être.<br />
-        Bon anniversaire, mon Soley adoré,<br />
-        Que cette histoire ne cesse de vibrer.
-      </p>
-    </>
-  )
-},
+            Entre l’absurde et le vrai, on glisse sans effort,
+            Des clins d’œil cosmiques jusqu’aux barres de sport.
+            Ce n’est pas du hasard, c’est presque un refrain,
+            Deux âmes qui s’écrivent, au-delà du matin.
+            
+            Même les roux n’ont pas été épargnés,<br />
+            À deux, nos délires savent voyager.<br /><br />
+            Tu es tombé sur moi, ou moi sur toi ?<br />
+            Peu importe, le cœur ne ment pas.<br />
+            Nos âmes s’attirent, nos corps le savent,<br />
+            Ce lien est fort, doux et brave.<br /><br />
+            On s’écoute, on se comprend,<br />
+            Chaque mot devient un fondement.<br />
+            Tu respectes mes peurs, mes silences,<br />
+            Et je célèbre ta force, ta présence.<br /><br />
+            Le 5 mai approche, et avec lui,<br />
+            Le frisson de te savoir ici.<br />
+            Plus près de moi, plus près du feu,<br />
+            Celui qu’on allume à deux, heureux.<br /><br />
+            Alors aujourd’hui, je te célèbre,<br />
+            Toi, l’homme qui fait battre mon être.<br />
+            Bon anniversaire, mon Soley adoré,<br />
+            Que cette histoire ne cesse de vibrer.
+          </p>
+        </>
+      ),
+    },
     {
       content: (
         <>
@@ -141,9 +146,10 @@ function App() {
   const restart = () => setPageIndex(0);
 
   return (
-    <audio autoPlay loop>
-  <source src="/music.mp3" type="audio/mpeg" />
-</audio>
+    <div className="App">
+      <audio id="audio" autoPlay loop>
+        <source src="/music.mp3" type="audio/mpeg" />
+      </audio>
 
       <div className="page">
         {pages[pageIndex].content}
