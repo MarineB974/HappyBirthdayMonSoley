@@ -15,30 +15,30 @@ function App() {
   const pages = [
     {
       content: (
-  <>
-    <h1>Aujourd’hui n’est pas un jour comme les autres</h1>
-    <p>Et même si 10 000 kilomètres nous séparent,</p>
-    <p>J’ai trouvé un moyen de traverser la distance.</p>
-    <p>Tu es ici parce qu’une personne pense fort à toi.</p>
-    <p>(Indice : elle est un peu folle, mais elle te trouve extraordinaire)</p>
-    <p>Aujourd'hui, on célèbre un homme unique...</p>
-    <p>Un papa en or, un guitariste de cœur.</p>
-    <p>Prêt pour le voyage ?</p>
-    <button
-      style={{ marginTop: '1rem' }}
-      onClick={() => document.getElementById("audio").play()}
-    >
-      Lancer la musique
-    </button>
-  </>
-),
+        <>
+          <h1>Aujourd’hui n’est pas un jour comme les autres</h1>
+          <p>Et même si 10 000 kilomètres nous séparent,</p>
+          <p>J’ai trouvé un moyen de traverser la distance.</p>
+          <p>Tu es ici parce qu’une personne pense fort à toi.</p>
+          <p>(Indice : elle est un peu folle, mais elle te trouve extraordinaire)</p>
+          <p>Aujourd'hui, on célèbre un homme unique...</p>
+          <p>Un papa en or, un guitariste de cœur.</p>
+          <p>Prêt pour le voyage ?</p>
+          <button
+            style={{ marginTop: '1rem' }}
+            onClick={() => document.getElementById("audio").play()}
+          >
+            Lancer la musique
+          </button>
+          <video src="/bisous.mp4" autoPlay muted loop style={{ width: '90%', marginTop: '1rem', borderRadius: '20px' }} />
+        </>
+      ),
     },
     {
       content: (
         <>
           <h2>Énigme – L’Élu des étoiles</h2>
           <p>
-            
             On m’appelle parfois le Grand Monarque,<br />
             Entre cristal cosmique et lumière opaque.<br /><br />
             Je ne suis ni dieu, ni roi, ni fou,<br />
@@ -60,6 +60,7 @@ function App() {
             </div>
           )}
           {enigmeOk && <p style={{ color: 'green' }}>Bonne réponse ! Tu peux continuer.</p>}
+          <video src="/durif.mp4" autoPlay muted loop style={{ width: '90%', marginTop: '1rem', borderRadius: '20px' }} />
         </>
       ),
     },
@@ -111,6 +112,7 @@ function App() {
             Bon anniversaire, mon Soley adoré,<br />
             Que cette histoire ne cesse de vibrer.
           </p>
+          <video src="/padupe.mp4" autoPlay muted loop style={{ width: '90%', marginTop: '2rem', borderRadius: '20px' }} />
         </>
       ),
     },
@@ -124,6 +126,7 @@ function App() {
             alt="Bon massage"
             style={{ maxWidth: '90%', marginTop: '1rem', borderRadius: '20px' }}
           />
+          <video src="/pascontent.mp4" autoPlay muted loop style={{ width: '90%', marginTop: '1rem', borderRadius: '20px' }} />
         </>
       ),
     },
