@@ -60,7 +60,7 @@ function App() {
     {
       content: (
         <>
-          <h2>À toi, mon Soley</h2>
+          <h2>À toi, mon Soley 🌞</h2>
           <p>
             Depuis ce dix mars, sans prévenir,<br />
             Tu es entré dans mon avenir.<br />
