@@ -32,11 +32,15 @@ function App() {
         <>
           <h2>Énigme – L’Élu des étoiles</h2>
           <p>
+            
             On m’appelle parfois le Grand Monarque,<br />
-            Entre cristal cosmique et lumière opaque.<br />
+            Entre cristal cosmique et lumière opaque.<br /><br />
             Je ne suis ni dieu, ni roi, ni fou,<br />
-            Pourtant sur YouTube, on me connaît beaucoup...<br />
-            Mon prénom est forêt, mon nom… devine qui ?
+            Pourtant sur YouTube, on me connaît beaucoup.<br /><br />
+            Certains rient, d’autres croient,<br />
+            Moi, je trace ma voie dans les lois de Gaïa.<br /><br />
+            Cherche mon nom dans l’espace infini,<br />
+            Qui suis-je ?
           </p>
           {!enigmeOk && (
             <div style={{ marginTop: '1rem' }}>
