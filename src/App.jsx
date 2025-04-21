@@ -17,7 +17,7 @@ function App() {
       content: (
         <>
           <h1>Aujourd’hui n’est pas un jour comme les autres</h1>
-          <p>Et même si 10 000 kilomètres nous séparent,</p>
+          <p>Et même si 8 779 kilomètres nous séparent,</p>
           <p>J’ai trouvé un moyen de traverser la distance.</p>
           <p>Tu es ici parce qu’une personne pense fort à toi.</p>
           <p>(Indice : elle est un peu folle, mais elle te trouve extraordinaire)</p>
