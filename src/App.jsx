@@ -85,7 +85,7 @@ function App() {
             Depuis ce dix mars, sans prévenir,<br />
             Tu es entré dans mon avenir.<br />
             Un message, un regard, un instant,<br />
-            Et très vite sont venus les appels… longs, vibrants.<br /><br />
+            Et très vite sont venus les appels… longs et vibrants.<br /><br />
             🪷<br /><br />
             Des heures à se parler sans voir le temps,<br />
             Comme si nos âmes savaient depuis longtemps.<br />
@@ -102,18 +102,13 @@ function App() {
             Les mots se croisent, sans qu’on les programme,<br />
             Connexion subtile, sans câble ni drame.<br /><br />
             🪷<br /><br />
-            On a ri aux éclats, des délires sans fin,<br />
-            Sur Goggins l’infernal, muscles et destin.<br />
-            Puis Durif est venu, l’élu des étoiles,<br />
-            Avec son cristal et ses grandes idées folles.<br /><br />
-            🪷<br /><br />
             Entre l’absurde et le vrai, on glisse sans effort,<br />
             Des clins d’œil cosmiques jusqu’aux barres de sport.<br />
+            Même les roux n’ont pas été épargnés,<br />
+            À deux, nos délires savent voyager.<br />
             Ce n’est pas du hasard, c’est presque un refrain,<br />
             Deux âmes qui s’écrivent, au-delà du matin.<br /><br />
             🪷<br /><br />
-            Même les roux n’ont pas été épargnés,<br />
-            À deux, nos délires savent voyager.<br /><br />
             Tu es tombé sur moi, ou moi sur toi ?<br />
             Peu importe, le cœur ne ment pas.<br />
             Nos âmes s’attirent, nos corps le savent,<br />
@@ -121,13 +116,8 @@ function App() {
             🪷<br /><br />
             On s’écoute, on se comprend,<br />
             Chaque mot devient un fondement.<br />
-            Tu respectes mes peurs, mes silences,<br />
-            Et je célèbre ta force, ta présence.<br /><br />
-            🪷<br /><br />
             Le 5 mai approche, et avec lui,<br />
-            Le frisson de te savoir ici.<br />
-            Plus près de moi, plus près du feu,<br />
-            Celui qu’on allume à deux, heureux.<br /><br />
+            Le frisson de te savoir ici.<br /><br />
             🪷<br /><br />
             Alors aujourd’hui, je te célèbre,<br />
             Toi, l’homme qui fait battre mon être.<br />
