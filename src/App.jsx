@@ -135,16 +135,9 @@ function App() {
   const restart = () => setPageIndex(0);
 
   return (
-    <div className="App">
-      {/* musique youtube en fond */}
-      <iframe
-        width="0"
-        height="0"
-        src="https://www.youtube.com/embed/LqZXPN4bKyE?autoplay=1&loop=1&playlist=LqZXPN4bKyE"
-        title="Musique"
-        frameBorder="0"
-        allow="autoplay"
-      ></iframe>
+    <audio autoPlay loop>
+  <source src="/music.mp3" type="audio/mpeg" />
+</audio>
 
       <div className="page">
         {pages[pageIndex].content}
