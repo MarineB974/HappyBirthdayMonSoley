@@ -159,7 +159,8 @@ function App() {
         <>
           <h2>Ce n’est que le début...</h2>
           <p>
-            Bon Anniversaire mon Soley. Tu es le cœur préféré d'une Lionne à l'autre bout du monde.
+            Bon Anniversaire mon Soley 🌞<br />
+            Tu es le cœur préféré d'une Lionne à l'autre bout du monde 🪷
           </p>
           <img
             src="/gateau.png"
