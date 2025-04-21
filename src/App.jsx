@@ -16,14 +16,14 @@ function App() {
     {
       content: (
         <>
-          <h1>Aujourd’hui n’est pas un jour comme les autres</h1>
+          <h1>Aujourd’hui n’est pas un jour comme les autres 🎂</h1>
           <p>Et même si 8 779 kilomètres nous séparent,</p>
-          <p>J’ai trouvé un moyen de traverser la distance.</p>
+          <p>J’ai trouvé un moyen de traverser la distance 🌍.</p>
           <p>Tu es ici parce qu’une personne pense fort à toi.</p>
-          <p>(Indice : elle est un peu folle, mais elle te trouve extraordinaire)</p>
+          <p>(Indice : elle est un peu folle, mais elle te trouve extraordinaire ❤️)</p>
           <p>Aujourd'hui, on célèbre un homme unique...</p>
-          <p>Un papa en or, un guitariste de cœur.</p>
-          <p>Prêt pour le voyage ?</p>
+          <p>Un papa en or 🥇, un guitariste de cœur 🎸.</p>
+          <p>Prêt pour le voyage ? ✈️</p>
           <button
             style={{ marginTop: '1rem' }}
             onClick={() => document.getElementById("audio").play()}
@@ -46,13 +46,13 @@ function App() {
           <h2>Énigme – L’Élu des étoiles</h2>
           <p>
             On m’appelle parfois le Grand Monarque,<br />
-            Entre cristal cosmique et lumière opaque.<br /><br />
+            Entre cristal cosmique et lumière opaque 🌌<br /><br />
             Je ne suis ni dieu, ni roi, ni fou,<br />
-            Pourtant sur YouTube, on me connaît beaucoup.<br /><br />
+            Pourtant sur YouTube, on me connaît beaucoup 🫣<br /><br />
             Certains rient, d’autres croient,<br />
-            Moi, je trace ma voie dans les lois de Gaïa.<br /><br />
-            Cherche mon nom dans l’espace infini,<br />
-            Qui suis-je ?
+            Moi, je trace ma voie dans les lois de Gaïa ☄️<br /><br />
+            Cherche mon nom dans l’espace infini,<br /><br />
+            Qui suis-je ? 🤔
           </p>
           {!enigmeOk && (
             <div style={{ marginTop: '1rem' }}>
@@ -84,7 +84,7 @@ function App() {
             Depuis ce dix mars, sans prévenir,<br />
             Tu es entré dans mon avenir.<br />
             Un message, un regard, un instant,<br />
-            Et très vite sont venus les appels… longs, vibrants.<br /><br />
+            Et très vite sont venus les appels… longs, vibrants.<br /><br />🪷
             Des heures à se parler sans voir le temps,<br />
             Comme si nos âmes savaient depuis longtemps.<br />
             Toi, le Lion de Douala, fier et vaillant,<br />
@@ -122,7 +122,8 @@ function App() {
             Alors aujourd’hui, je te célèbre,<br />
             Toi, l’homme qui fait battre mon être.<br />
             Bon anniversaire, mon Soley adoré,<br />
-            Que cette histoire ne cesse de vibrer.
+            Que cette histoire ne cesse de vibrer.<br /><br />
+            Ton ti bonbon bien aimé 🍭
           </p>
         </>
       ),
@@ -138,7 +139,7 @@ function App() {
       content: (
         <>
           <h2>Un instant détente t’attend…</h2>
-          <p>Voici ton bon massage bien mérité !</p>
+          <p>Voici ton bon pour un massage bien mérité ! 💆🏾‍♂️</p>
           <img
             src="/massage.png"
             alt="Bon massage"
@@ -157,7 +158,7 @@ function App() {
     {
       content: (
         <>
-          <h2>Ce n’est que le début...</h2>
+          <h2>Ce n’est que le début...❤️</h2>
           <p>
             Bon Anniversaire mon Soley 🌞<br />
             Tu es le cœur préféré d'une Lionne à l'autre bout du monde 🪷
