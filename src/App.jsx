@@ -30,7 +30,13 @@ function App() {
           >
             Lancer la musique
           </button>
-          <video src="/bisous.mp4" autoPlay muted loop style={{ width: '90%', marginTop: '1rem', borderRadius: '20px' }} />
+        </>
+      ),
+    },
+    {
+      content: (
+        <>
+          <video src="/bisous.mp4" autoPlay muted loop style={{ width: '90%', borderRadius: '20px' }} />
         </>
       ),
     },
@@ -60,7 +66,13 @@ function App() {
             </div>
           )}
           {enigmeOk && <p style={{ color: 'green' }}>Bonne réponse ! Tu peux continuer.</p>}
-          <video src="/durif.mp4" autoPlay muted loop style={{ width: '90%', marginTop: '1rem', borderRadius: '20px' }} />
+        </>
+      ),
+    },
+    {
+      content: (
+        <>
+          <video src="/durif.mp4" autoPlay muted loop style={{ width: '90%', borderRadius: '20px' }} />
         </>
       ),
     },
@@ -112,7 +124,13 @@ function App() {
             Bon anniversaire, mon Soley adoré,<br />
             Que cette histoire ne cesse de vibrer.
           </p>
-          <video src="/padupe.mp4" autoPlay muted loop style={{ width: '90%', marginTop: '2rem', borderRadius: '20px' }} />
+        </>
+      ),
+    },
+    {
+      content: (
+        <>
+          <video src="/padupe.mp4" autoPlay muted loop style={{ width: '90%', borderRadius: '20px' }} />
         </>
       ),
     },
@@ -126,7 +144,13 @@ function App() {
             alt="Bon massage"
             style={{ maxWidth: '90%', marginTop: '1rem', borderRadius: '20px' }}
           />
-          <video src="/pascontent.mp4" autoPlay muted loop style={{ width: '90%', marginTop: '1rem', borderRadius: '20px' }} />
+        </>
+      ),
+    },
+    {
+      content: (
+        <>
+          <video src="/pascontent.mp4" autoPlay muted loop style={{ width: '90%', borderRadius: '20px' }} />
         </>
       ),
     },
@@ -148,7 +172,7 @@ function App() {
   ];
 
   const nextPage = () => {
-    if (pageIndex === 1 && !enigmeOk) return;
+    if (pageIndex === 2 && !enigmeOk) return;
     if (pageIndex < pages.length - 1) setPageIndex(pageIndex + 1);
   };
 
