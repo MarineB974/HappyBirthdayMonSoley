@@ -89,13 +89,18 @@ function App() {
             🪷<br /><br />
             Des heures à se parler sans voir le temps,<br />
             Comme si nos âmes savaient depuis longtemps.<br />
-            Toi, le Lion de Douala, fier et vaillant,<br />
-            Moi, la Lionne aux terres d’océan,<br /><br />
+            Toi, Lion Indomptable, force inébranlable,<br />
+            Moi, regard d’azur, douceur inaltérable,<br /><br />
             🪷<br /><br />
             Liés par un symbole, un rugissement,<br />
             Qui résonne entre nos deux continents.<br />
             Entre Marseille et la Réunion,<br />
             Nos pensées jouent à l’unisson.<br /><br />
+            🪷<br /><br />
+            Toi, navigateur aux rêves indomptés,<br />
+            Moi, prénom de l'océan, au cœur iodé,<br />
+            Quand ton âme m’appelle, l’écume me sourit,<br />
+            Et nos cœurs voguent ensemble, portés par l’envie.<br /><br />
             🪷<br /><br />
             On s’écrit souvent, presque au même instant,<br />
             Comme deux esprits liés, dans le même courant.<br />
